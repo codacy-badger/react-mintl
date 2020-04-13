@@ -1,0 +1,18 @@
+{
+  "extends": ["airbnb", "airbnb/hooks"],
+  "rules": {
+    "linebreak-style": ["error", "windows"],
+    "no-console": "off",
+    "space-before-function-paren": ["error", "never"],
+    "keyword-spacing": ["error", {
+      "after": true,
+      "overrides": {
+        "function": { "after": false }
+      }
+    }],
+    "func-names": ["error", "never"],
+  },
+  "env": {
+    "jest": true
+  }
+}
